@@ -1,6 +1,6 @@
 # GitHub Publish
 
-This repository is the public reusable framework for AI agents that help build WordPress sites. Standard WordPress builds are supported by default; Themify Ultra is the preferred implementation path when it is available.
+This is the public repo for helping AI coding agents build WordPress sites. It works for regular WordPress sites, but Themify Ultra is the preferred setup.
 
 Repository: `/home/codex/Projects/Themify_Site_Builder`
 
@@ -21,7 +21,7 @@ gh repo create WordPress-Agent-Site-Builder --public --source=. --remote=origin 
 
 ## Suggested GitHub Description
 
-AI-agent framework for building editable WordPress sites, with Themify Ultra as the preferred workflow.
+Helps AI coding agents build editable WordPress sites. Works best with Themify Ultra.
 
 ## Verify Visibility
 
@@ -33,4 +33,4 @@ gh repo view WordPress-Agent-Site-Builder --json name,visibility,url
 
 - Do not commit `.env`, cookies, browser profiles, database dumps, or exported uploads containing private data.
 - The public repo should stay generic.
-- Site-specific notes and specs belong outside this public framework.
+- Client-specific notes and site plans should stay out of this public repo.

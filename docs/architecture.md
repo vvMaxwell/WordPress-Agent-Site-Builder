@@ -2,7 +2,7 @@
 
 ## Objective
 
-Create a reusable system that turns a prompt-derived site specification into an editable WordPress website. Standard WordPress output is the baseline; Themify Ultra is the preferred path when it is installed and licensed.
+Create a reusable system that turns a plain site plan into an editable WordPress website. Regular WordPress is supported, and Themify Ultra is the preferred setup when it is installed and licensed.
 
 ## High-Level Architecture
 
