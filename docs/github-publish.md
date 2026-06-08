@@ -1,9 +1,8 @@
 # GitHub Publish
 
-This workspace is split into two repos:
+This repository is the public reusable framework for AI agents that help build WordPress sites. Standard WordPress builds are supported by default; Themify Ultra is the preferred implementation path when it is available.
 
-- Public reusable framework: `/home/codex/Projects/Themify_Site_Builder`
-- Private live-session fork: `/home/codex/Projects/Themify_Site_Builder_methlabprojects_private`
+Repository: `/home/codex/Projects/Themify_Site_Builder`
 
 ## Authenticate GitHub CLI
 
@@ -17,25 +16,21 @@ gh auth login -h github.com
 
 ```bash
 cd /home/codex/Projects/Themify_Site_Builder
-gh repo create themify-ultra-site-builder --public --source=. --remote=origin --push
+gh repo create WordPress-Agent-Site-Builder --public --source=. --remote=origin --push
 ```
 
-## Publish Private Live-Session Fork
+## Suggested GitHub Description
 
-```bash
-cd /home/codex/Projects/Themify_Site_Builder_methlabprojects_private
-gh repo create methlabprojects-themify-private --private --source=. --remote=origin --push
-```
+AI-agent framework for building editable WordPress sites, with Themify Ultra as the preferred workflow.
 
 ## Verify Visibility
 
 ```bash
-gh repo view themify-ultra-site-builder --json name,visibility,url
-gh repo view methlabprojects-themify-private --json name,visibility,url
+gh repo view WordPress-Agent-Site-Builder --json name,visibility,url
 ```
 
 ## Safety
 
 - Do not commit `.env`, cookies, browser profiles, database dumps, or exported uploads containing private data.
 - The public repo should stay generic.
-- Site-specific notes and specs belong only in the private fork.
+- Site-specific notes and specs belong outside this public framework.

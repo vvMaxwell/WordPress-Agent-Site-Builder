@@ -1,12 +1,13 @@
-# Themify Ultra Site Builder Playbook
+# AI Agent WordPress Site Builder Playbook
 
-Reusable source material for building WordPress sites with Themify Ultra, Themify Builder, Builder Pro templates, and imported Ultra demos.
+Reusable source material for AI agents that help build WordPress sites. The default target is a clean, editable WordPress site; the preferred workflow uses Themify Ultra, Themify Builder, Builder Pro templates, and imported Ultra demos.
 
-The goal is not to replace Themify with custom code. The goal is to make Codex start future builds with the right assumptions: import an Ultra demo/skin first, adapt the demo pages and modules, use Builder Pro templates for the header and footer, keep pages editable in Themify Builder, and avoid custom CSS or custom HTML snippets.
+The goal is not to replace WordPress or Themify with custom code. The goal is to make AI agents start future builds with the right assumptions: use WordPress-native content and settings by default, import a Themify Ultra demo/skin when Ultra is available, adapt demo pages and modules, use Builder Pro templates for the header and footer, keep pages editable, and avoid custom CSS or custom HTML snippets unless there is a clear reason.
 
 ## Core Rules
 
-- Use an imported Themify Ultra demo/skin as the design base. Do not start from a blank visual layout unless the user explicitly asks for a blank build.
+- Build WordPress sites in a way site owners can keep editing in wp-admin.
+- Prefer Themify Ultra when available. Use an imported Ultra demo/skin as the design base instead of starting from a blank visual layout unless the user explicitly asks for a blank build.
 - Reword, reorder, and restyle the demo content inside Themify Builder/Ultra controls.
 - Do not add custom CSS, custom HTML blocks, or theme-file edits for normal site styling.
 - Use Builder Pro templates for site-wide header and footer when the user wants editable header/footer control.
@@ -46,30 +47,31 @@ npm run generate -- automation/examples/site-spec.example.json
 
 The generated output is written to `build/site-plan/`. It does not require WordPress.
 
-## Recommended Codex Starting Prompt
+## Recommended AI Agent Starting Prompt
 
-When beginning a new site build, Codex should ask:
+When beginning a new site build, the AI agent should ask:
 
 ```text
 Before I build, I need the site brief:
 1. What is the site/business name and goal?
 2. What pages do you want in the navigation?
-3. What Themify Ultra demo/skin should I use, or should I pick the closest one?
+3. Are we using standard WordPress defaults, or Themify Ultra? If Ultra, what demo/skin should I use, or should I pick the closest one?
 4. What main color, accent color, and hover color should be used?
 5. What tone should the copy have?
 6. Do you want editable Builder Pro header and footer templates?
 7. Do you want service/team/detail pages linked from the main pages?
 ```
 
-If the user says "pick", choose a Themify Ultra demo that matches the site's industry, import it, then adapt it.
+If the user says "pick" and Themify Ultra is available, choose an Ultra demo that matches the site's industry, import it, then adapt it.
 
 ## Current Status
 
 Implemented now:
 
+- WordPress-first build rules with Themify Ultra as the preferred implementation path.
 - Demo-first Themify Ultra build rules.
 - Intake prompt checklist.
-- Live-site lessons from a completed Themify Ultra/Clinic-style build.
+- Live-site lessons from a completed Themify Ultra demo-based build.
 - Offline site-spec to Builder-layout artifact generator.
 - Future PHP bridge for WordPress + Themify execution.
 - Playwright validation template.

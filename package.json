@@ -1,6 +1,7 @@
 {
-  "name": "themify-site-builder",
+  "name": "wordpress-agent-site-builder",
   "version": "0.1.0",
+  "description": "AI-agent framework for building editable WordPress sites, with Themify Ultra as the preferred workflow.",
   "private": false,
   "type": "module",
   "scripts": {
