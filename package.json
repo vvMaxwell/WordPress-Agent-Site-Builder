@@ -1,0 +1,17 @@
+{
+  "name": "themify-site-builder",
+  "version": "0.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "generate": "node automation/scripts/generate-plan.mjs",
+    "test": "playwright test",
+    "playwright:install": "playwright install"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "version": "0.1.0",
+  "site": {
+    "name": "Northstar Dental Studio",
+    "tagline": "Calm, modern dental care for busy families",
+    "url": "https://example.test",
+    "locale": "en_US",
+    "timezone": "America/Edmonton"
+  },
+  "style": {
+    "accentColor": "#24786d",
+    "secondaryColor": "#f2b84b",
+    "neutralColor": "#f7f8f5",
+    "fontIntent": "clean professional healthcare",
+    "roundedCorners": "small"
+  },
+  "navigation": {
+    "primary": ["home", "services", "about", "contact"],
+    "footer": ["privacy-policy", "contact"]
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Northstar Dental Studio | Family Dentist",
+        "description": "Modern family dentistry with calm appointments, clear pricing, and convenient scheduling."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Family dentistry without the rush",
+          "body": "Northstar Dental Studio helps patients feel informed, comfortable, and cared for from check-in to follow-up.",
+          "primaryAction": {
+            "label": "Book an Appointment",
+            "href": "/contact/"
+          },
+          "media": {
+            "intent": "bright modern dental clinic reception with natural light",
+            "alt": "Modern dental clinic reception"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Care for every stage",
+          "items": [
+            {
+              "title": "Preventive Care",
+              "body": "Cleanings, exams, fluoride, and clear home-care guidance."
+            },
+            {
+              "title": "Restorative Dentistry",
+              "body": "Tooth-colored fillings, crowns, and practical treatment planning."
+            },
+            {
+              "title": "Emergency Visits",
+              "body": "Prompt help for pain, broken teeth, and urgent concerns."
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "heading": "Ready for a calmer dental visit?",
+          "body": "Send a request and the front desk will follow up with available appointment times.",
+          "primaryAction": {
+            "label": "Request a Visit",
+            "href": "/contact/"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Dental Services | Northstar Dental Studio",
+        "description": "Preventive, restorative, cosmetic, and emergency dental services for families."
+      },
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Practical care, clearly explained",
+          "body": "Every recommendation is explained in plain language so patients can choose the right next step."
+        },
+        {
+          "type": "faq",
+          "heading": "Common questions",
+          "items": [
+            {
+              "title": "Do you accept new patients?",
+              "body": "Yes. New patient exams include a review of dental history, concerns, and goals."
+            },
+            {
+              "title": "Can you help with dental anxiety?",
+              "body": "Yes. The team explains each step and can adjust the pace of the appointment."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "About Northstar Dental Studio",
+        "description": "Meet a dental team focused on comfort, trust, and clear communication."
+      },
+      "sections": [
+        {
+          "type": "text",
+          "heading": "A dental team built around trust",
+          "body": "The studio combines modern tools with patient-first communication and thoughtful follow-up."
+        },
+        {
+          "type": "testimonials",
+          "heading": "Patient feedback",
+          "items": [
+            {
+              "title": "Clear and kind",
+              "body": "The team explained everything and made the visit feel manageable."
+            },
+            {
+              "title": "Great with families",
+              "body": "Scheduling was easy and the appointment started on time."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Contact Northstar Dental Studio",
+        "description": "Request an appointment or contact Northstar Dental Studio."
+      },
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Request an appointment",
+          "body": "Share a few details and the front desk will respond during business hours."
+        },
+        {
+          "type": "form",
+          "heading": "Appointment request",
+          "form": {
+            "name": "Appointment Request",
+            "recipient": "admin",
+            "successMessage": "Thanks. We will follow up soon.",
+            "fields": [
+              {"label": "Name", "type": "text", "required": true},
+              {"label": "Email", "type": "email", "required": true},
+              {"label": "Phone", "type": "tel", "required": false},
+              {"label": "Message", "type": "textarea", "required": true}
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "templateIntent": "standard",
+      "seo": {
+        "title": "Privacy Policy | Northstar Dental Studio",
+        "description": "Privacy policy for Northstar Dental Studio."
+      },
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Privacy Policy",
+          "body": "Replace this placeholder with a reviewed privacy policy before launch."
+        }
+      ]
+    }
+  ],
+  "forms": [],
+  "reusableSections": [
+    {
+      "slug": "site-footer-cta",
+      "title": "Footer CTA",
+      "type": "cta",
+      "heading": "Questions before booking?",
+      "body": "Contact the studio and a team member will help.",
+      "primaryAction": {
+        "label": "Contact Us",
+        "href": "/contact/"
+      }
+    }
+  ]
+}

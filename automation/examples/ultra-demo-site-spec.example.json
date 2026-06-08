@@ -1,0 +1,156 @@
+{
+  "version": "0.2.0",
+  "site": {
+    "name": "Example Lab Services",
+    "tagline": "Clean demo-first WordPress site built with Themify Ultra",
+    "url": "https://example.test",
+    "locale": "en_US",
+    "timezone": "America/Edmonton",
+    "goal": "Create a polished service website by importing and adapting a Themify Ultra demo."
+  },
+  "themify": {
+    "theme": "Themify Ultra",
+    "demoStrategy": "import-first",
+    "preferredDemo": "Clinic",
+    "skin": "clinic",
+    "builderOnly": true,
+    "customCssAllowed": false,
+    "customHtmlAllowed": false,
+    "builderProTemplates": {
+      "blankTheme": true,
+      "header": true,
+      "footer": true
+    },
+    "pageDefaults": {
+      "pageLayout": "sidebar-none",
+      "stickySidebar": "disable",
+      "hidePageTitle": true
+    }
+  },
+  "style": {
+    "mainColor": "#1f6f50",
+    "accentColor": "#9bd611",
+    "hoverColor": "#9bd611",
+    "backgroundIntent": "clean white lab environment with soft neutral sections",
+    "fontIntent": "clean professional with light jargon humor",
+    "roundedCorners": "small"
+  },
+  "navigation": {
+    "primary": ["home", "services", "about", "team", "contact"],
+    "footer": ["home", "services", "about", "team", "contact"]
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "templateIntent": "builder_full_width",
+      "sourceDemoPage": "Clinic homepage",
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Clean lab-grade service copy",
+          "body": "Adapt the imported demo hero instead of creating a custom hero from scratch.",
+          "primaryAction": {
+            "label": "View Services",
+            "href": "/services/"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Services",
+          "items": [
+            {
+              "title": "Jargon Distillation",
+              "body": "Turn dense messaging into cleaner page sections.",
+              "href": "/jargon-distillation/"
+            },
+            {
+              "title": "Process Catalysis",
+              "body": "Make content workflows easier to understand.",
+              "href": "/process-catalysis/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "templateIntent": "builder_full_width",
+      "sections": [
+        {
+          "type": "services",
+          "heading": "Service workstreams",
+          "items": [
+            {
+              "title": "Jargon Distillation",
+              "body": "A service detail page should exist and be linked from this card.",
+              "href": "/jargon-distillation/"
+            },
+            {
+              "title": "Process Catalysis",
+              "body": "A service detail page should exist and be linked from this card.",
+              "href": "/process-catalysis/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "templateIntent": "builder_full_width",
+      "sections": [
+        {
+          "type": "text",
+          "heading": "About the lab",
+          "body": "Use the imported demo's about page structure and replace the words."
+        },
+        {
+          "type": "team",
+          "heading": "Our Team",
+          "linkCardsTo": "/team/",
+          "items": [
+            {
+              "title": "Dr. Example Buffer",
+              "body": "Chief demo adapter."
+            },
+            {
+              "title": "Avery Module",
+              "body": "Builder section specialist."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "team",
+      "title": "Team",
+      "templateIntent": "builder_full_width",
+      "sections": [
+        {
+          "type": "team",
+          "heading": "Team",
+          "items": [
+            {
+              "title": "Dr. Example Buffer",
+              "body": "Chief demo adapter."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "templateIntent": "builder_full_width",
+      "sections": [
+        {
+          "type": "form",
+          "heading": "Contact",
+          "body": "Use the imported demo contact section and replace the wording."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,441 @@
+{
+  "version": "0.1.0",
+  "site": {
+    "name": "Apex Synergistics Chemical Services",
+    "tagline": "Integrated chemistry enablement for enterprise-grade operational excellence",
+    "url": "https://example.test",
+    "locale": "en_US",
+    "timezone": "America/Edmonton"
+  },
+  "style": {
+    "theme": "Themify Ultra corporate services layout",
+    "accentColor": "#0b5d5f",
+    "secondaryColor": "#f2c94c",
+    "neutralColor": "#f4f7f6",
+    "fontIntent": "executive industrial professional",
+    "roundedCorners": "small"
+  },
+  "navigation": {
+    "primary": ["home", "services", "industries", "capabilities", "about", "contact"],
+    "footer": ["privacy-policy", "contact"]
+  },
+  "pages": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Apex Synergistics Chemical Services | Enterprise Chemistry Solutions",
+        "description": "Corporate chemical services for process optimization, formulation support, compliance alignment, and lifecycle resilience."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Mission-critical chemical synergy at enterprise velocity",
+          "body": "Apex Synergistics Chemical Services helps high-performing organizations operationalize molecular value streams, de-risk formulation ecosystems, and unlock cross-functional process leverage across the entire chemical services continuum.",
+          "primaryAction": {
+            "label": "Start Strategic Alignment",
+            "href": "/contact/"
+          },
+          "media": {
+            "intent": "polished corporate chemical laboratory with glass reactors, stainless equipment, and technicians in clean PPE",
+            "alt": "Corporate chemical services laboratory"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Executive-ready service verticals",
+          "items": [
+            {
+              "title": "Process Optimization",
+              "body": "We translate reaction-pathway friction into measurable throughput gains through data-aligned batch intelligence, staged validation, and continuous improvement governance.",
+              "media": {
+                "intent": "chemical process control room with dashboards and stainless production equipment",
+                "alt": "Chemical process optimization control room"
+              }
+            },
+            {
+              "title": "Formulation Strategy",
+              "body": "Our formulation team builds durable product platforms with scalable ingredient matrices, shelf-life narratives, and stakeholder-approved performance benchmarks.",
+              "media": {
+                "intent": "scientist reviewing liquid formulation samples in a modern corporate lab",
+                "alt": "Scientist reviewing formulation samples"
+              }
+            },
+            {
+              "title": "Compliance Enablement",
+              "body": "We harmonize documentation, safety data, quality checkpoints, and audit pathways so regulatory conversations arrive pre-aligned and boardroom-ready.",
+              "media": {
+                "intent": "industrial chemist checking compliance documents beside labeled sample bottles",
+                "alt": "Chemical compliance documentation review"
+              }
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "heading": "Built for organizations that say ecosystem unironically",
+          "body": "From specialty manufacturing to institutional procurement teams, we provide white-glove chemical service orchestration with the kind of layered corporate terminology that makes every steering committee feel comprehensively activated.",
+          "media": {
+            "intent": "executive meeting in a bright industrial chemistry facility overlooking production floor",
+            "alt": "Chemical services executive planning meeting"
+          }
+        },
+        {
+          "type": "cta",
+          "heading": "Ready to ideate your molecule-to-market roadmap?",
+          "body": "Book a discovery call and we will convert your current-state chemistry concerns into a prioritized transformation narrative.",
+          "primaryAction": {
+            "label": "Book Discovery Call",
+            "href": "/contact/"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "services",
+      "title": "Services",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Chemical Services | Apex Synergistics",
+        "description": "Process optimization, formulation support, testing coordination, and compliance enablement for chemical operations."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Chemical services with strategic altitude",
+          "body": "Our service model combines practical bench chemistry with enterprise transformation language, giving teams the technical depth they need and the stakeholder confidence they have been asked to operationalize.",
+          "primaryAction": {
+            "label": "Request Scope Workshop",
+            "href": "/contact/"
+          },
+          "media": {
+            "intent": "wide angle modern chemical testing lab with organized benches and corporate lighting",
+            "alt": "Modern chemical testing laboratory"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Core delivery workstreams",
+          "items": [
+            {
+              "title": "Analytical Testing Coordination",
+              "body": "Structured sample intake, method selection, vendor coordination, and evidence packaging for teams that need clarity without creating a meeting about every molecule.",
+              "media": {
+                "intent": "close up analytical chemistry instruments and sample vials in a clean lab",
+                "alt": "Analytical chemistry instruments"
+              }
+            },
+            {
+              "title": "Scale-Up Readiness",
+              "body": "Pilot-stage assessment, raw-material alignment, risk registers, and production translation support for organizations moving from promising to procurable.",
+              "media": {
+                "intent": "pilot chemical production equipment with engineer monitoring gauges",
+                "alt": "Pilot chemical production equipment"
+              }
+            },
+            {
+              "title": "SDS and Label Review",
+              "body": "Documentation review, hazard communication alignment, and label-readiness workflows delivered with enough acronyms to satisfy any governance committee.",
+              "media": {
+                "intent": "safety data sheet review with chemical labels and protective eyewear on desk",
+                "alt": "Safety data sheet and chemical label review"
+              }
+            },
+            {
+              "title": "Supplier Quality Alignment",
+              "body": "Qualification narratives, incoming-material checks, corrective action tracking, and cross-supplier harmonization for resilient procurement ecosystems.",
+              "media": {
+                "intent": "warehouse of labeled chemical drums with quality inspector using tablet",
+                "alt": "Chemical supplier quality inspection"
+              }
+            }
+          ]
+        },
+        {
+          "type": "faq",
+          "heading": "Frequently escalated questions",
+          "items": [
+            {
+              "title": "Do you manufacture chemicals directly?",
+              "body": "This base concept positions Apex as a services and coordination partner. A live build can add manufacturing claims only after the client confirms facilities, permits, and capabilities."
+            },
+            {
+              "title": "Can this site support regulated industries?",
+              "body": "Yes. The copy is written to sound compliance-aware while leaving room for real legal, safety, and quality review before launch."
+            },
+            {
+              "title": "Is the corporate jargon intentional?",
+              "body": "Absolutely. The site is professional on the surface and deeply committed to enterprise-grade buzzword throughput."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "industries",
+      "title": "Industries",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Industries Served | Apex Synergistics",
+        "description": "Chemical service support for manufacturing, institutional facilities, consumer products, energy, and specialty materials."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Sector-specific chemistry enablement",
+          "body": "We help diversified teams align their chemical inputs, documentation frameworks, and service partner ecosystems around outcomes that sound excellent in quarterly planning decks.",
+          "primaryAction": {
+            "label": "Map Your Use Case",
+            "href": "/contact/"
+          },
+          "media": {
+            "intent": "industrial chemical facility with clean exterior, pipelines, and corporate campus landscaping",
+            "alt": "Industrial chemical services facility"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Markets we synergize with",
+          "items": [
+            {
+              "title": "Specialty Manufacturing",
+              "body": "Batch consistency, raw-material resilience, and process documentation for teams pursuing operational excellence across complex production environments.",
+              "media": {
+                "intent": "specialty manufacturing floor with clean chemical production tanks",
+                "alt": "Specialty chemical manufacturing floor"
+              }
+            },
+            {
+              "title": "Facilities and Institutions",
+              "body": "Chemical program review, vendor rationalization, and safety-forward procurement guidance for campuses, plants, and multi-site operating teams.",
+              "media": {
+                "intent": "facility maintenance team reviewing chemical storage room with labels",
+                "alt": "Institutional chemical storage review"
+              }
+            },
+            {
+              "title": "Consumer Products",
+              "body": "Formulation support, performance benchmarking, and packaging-adjacent documentation for products that need to feel premium and pass review.",
+              "media": {
+                "intent": "consumer product chemistry bench with bottles, beakers, and packaging prototypes",
+                "alt": "Consumer product formulation bench"
+              }
+            }
+          ]
+        },
+        {
+          "type": "cta",
+          "heading": "Every sector deserves a transformation narrative",
+          "body": "Tell us the industry, the constraint, and the committee. We will bring the chemistry language.",
+          "primaryAction": {
+            "label": "Discuss Industry Fit",
+            "href": "/contact/"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "capabilities",
+      "title": "Capabilities",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Capabilities | Apex Synergistics Chemical Services",
+        "description": "Technical and advisory capabilities for chemical testing, documentation, quality alignment, and transformation planning."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Capability stacks for measurable chemical momentum",
+          "body": "Our multidisciplinary delivery model creates a unified operating picture across bench testing, documentation, supplier quality, and executive reporting so everyone can say alignment with confidence.",
+          "primaryAction": {
+            "label": "Review Capabilities",
+            "href": "/contact/"
+          },
+          "media": {
+            "intent": "chemist using tablet in laboratory beside colorful samples and digital quality dashboard",
+            "alt": "Digital chemical quality dashboard"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Capability pillars",
+          "items": [
+            {
+              "title": "Discovery and Assessment",
+              "body": "Current-state interviews, sample audits, workflow mapping, and executive summary artifacts that create immediate momentum without frightening procurement.",
+              "media": {
+                "intent": "consultants and chemists mapping chemical workflow on glass board",
+                "alt": "Chemical workflow assessment"
+              }
+            },
+            {
+              "title": "Laboratory Coordination",
+              "body": "Method scoping, test queue management, result interpretation, and decision-ready reporting for teams that need lab outcomes translated into action.",
+              "media": {
+                "intent": "organized laboratory sample queue with barcoded vials and analyst workstation",
+                "alt": "Laboratory coordination sample queue"
+              }
+            },
+            {
+              "title": "Quality Governance",
+              "body": "Specification review, nonconformance tracking, supplier scorecards, and documentation cadence design for mature chemical operations.",
+              "media": {
+                "intent": "quality manager reviewing chemical specifications on tablet in production area",
+                "alt": "Chemical quality governance review"
+              }
+            }
+          ]
+        },
+        {
+          "type": "testimonials",
+          "heading": "Stakeholder sentiment",
+          "items": [
+            {
+              "title": "Transformed our chemical narrative",
+              "body": "Apex helped us turn scattered lab notes into a scalable operating model with enough synergy language to satisfy three departments."
+            },
+            {
+              "title": "Boardroom-ready chemistry",
+              "body": "Their team made the technical risks understandable, presentable, and weirdly impressive in a quarterly review."
+            },
+            {
+              "title": "Extremely aligned",
+              "body": "Every deliverable arrived with context, clarity, and a vocabulary that made our procurement team feel seen."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "About Apex Synergistics Chemical Services",
+        "description": "A polished test-site profile for a corporate chemical services company focused on strategy, operations, and compliance support."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "A proudly over-aligned chemical services partner",
+          "body": "Apex Synergistics exists to make chemical programs look sharper, sound more strategic, and move through stakeholder review with optimized confidence.",
+          "primaryAction": {
+            "label": "Meet the Team",
+            "href": "/contact/"
+          },
+          "media": {
+            "intent": "professional chemical services team standing in modern laboratory with confident corporate style",
+            "alt": "Chemical services team in laboratory"
+          }
+        },
+        {
+          "type": "text",
+          "heading": "Our operating philosophy",
+          "body": "We believe chemistry is more than atoms, assays, and documentation. It is a platform for cross-functional enablement, value-stream acceleration, and the occasional extremely serious slide deck.",
+          "media": {
+            "intent": "corporate chemistry leadership team reviewing charts in conference room",
+            "alt": "Chemical services leadership meeting"
+          }
+        },
+        {
+          "type": "services",
+          "heading": "Why teams choose Apex",
+          "items": [
+            {
+              "title": "Professional Polish",
+              "body": "Clean messaging, credible service framing, and executive-friendly language that makes a test site feel launch-ready."
+            },
+            {
+              "title": "Technical Texture",
+              "body": "Enough real-world chemical-service vocabulary to feel plausible without pretending unverified capabilities are certified facts."
+            },
+            {
+              "title": "Buzzword Capacity",
+              "body": "A high-output jargon engine calibrated for enterprise stakeholders, transformation offices, and anyone who has ever said leverage twice."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "contact",
+      "title": "Contact",
+      "templateIntent": "builder_full_width",
+      "seo": {
+        "title": "Contact Apex Synergistics",
+        "description": "Contact Apex Synergistics Chemical Services for chemical service planning, documentation support, and strategic chemistry alignment."
+      },
+      "sections": [
+        {
+          "type": "hero",
+          "heading": "Initiate the alignment protocol",
+          "body": "Send a brief note about the chemical challenge, operational constraint, or committee-driven urgency. Our intake team will route the opportunity through an appropriately strategic response pathway.",
+          "primaryAction": {
+            "label": "Send Inquiry",
+            "href": "#inquiry"
+          },
+          "media": {
+            "intent": "professional reception area for corporate chemical services office with subtle lab view",
+            "alt": "Corporate chemical services reception"
+          }
+        },
+        {
+          "type": "form",
+          "heading": "Strategic inquiry form",
+          "form": {
+            "name": "Strategic Chemical Services Inquiry",
+            "recipient": "admin",
+            "successMessage": "Thanks. Your inquiry has entered the alignment queue.",
+            "fields": [
+              {"label": "Name", "type": "text", "required": true},
+              {"label": "Email", "type": "email", "required": true},
+              {"label": "Company", "type": "text", "required": false},
+              {"label": "Service Interest", "type": "select", "required": false, "options": ["Process Optimization", "Formulation Strategy", "Compliance Enablement", "Supplier Quality", "General Synergy"]},
+              {"label": "Message", "type": "textarea", "required": true}
+            ]
+          }
+        },
+        {
+          "type": "text",
+          "heading": "Corporate headquarters",
+          "body": "Apex Synergistics Chemical Services, 1200 Catalyst Parkway, Suite 400, Calgary, AB. Business hours: Monday to Friday, 8:30 AM to 5:00 PM.",
+          "media": {
+            "intent": "modern corporate office exterior for chemical services company",
+            "alt": "Apex Synergistics corporate headquarters"
+          }
+        }
+      ]
+    },
+    {
+      "slug": "privacy-policy",
+      "title": "Privacy Policy",
+      "templateIntent": "standard",
+      "seo": {
+        "title": "Privacy Policy | Apex Synergistics",
+        "description": "Privacy policy placeholder for Apex Synergistics Chemical Services."
+      },
+      "sections": [
+        {
+          "type": "text",
+          "heading": "Privacy Policy",
+          "body": "This placeholder privacy policy should be reviewed by qualified counsel before launch. It should explain what information is collected through contact forms, how inquiries are stored, who can access them, and how visitors can request updates or deletion."
+        }
+      ]
+    }
+  ],
+  "forms": [],
+  "reusableSections": [
+    {
+      "slug": "site-footer-cta",
+      "title": "Footer CTA",
+      "type": "cta",
+      "heading": "Need a stakeholder-ready chemical services conversation?",
+      "body": "Apex can help transform chemistry ambiguity into an executive-aligned action plan.",
+      "primaryAction": {
+        "label": "Contact Apex",
+        "href": "/contact/"
+      }
+    }
+  ]
+}
